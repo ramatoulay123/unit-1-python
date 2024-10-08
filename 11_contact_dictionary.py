@@ -17,7 +17,7 @@ def delete_contact():
 def list_contacts():
     if contact_book:
         print("Your contacts:")
-        for name, number in contact_book.items():
+        for name, number in contact_book.:
             print(f"{name}: {number}")
     else:
         print("No contacts found.")
