@@ -5,6 +5,11 @@ parameter and prints a greeting message like "Hello, [name]!".
 """
 # Name is the parameter 
 def my_function(name): 
+    """ 
+This function is used to assign the name and print the name to hello
+rama 
+    """
+
     print("Hello," + name)
 # assigns name of the variable as rama
 my_function("rama")
@@ -14,7 +19,8 @@ Task 2: Square of a Number
 Write a function that takes an integer as an argument and returns its square.
 """
 def square_number(a,b):
-# returns the number as a square
+
+
     return a ** b 
 # Gives the parameters values to replace a and b
 x = square_number(7,2) 
@@ -32,6 +38,9 @@ returns `True` if the number is even, and `False` otherwise.
 a = int(input("Write a number: ")) 
 # Function allows for if the number is even it will return true or false
 def number(a): 
+    """
+    This function checks whether a number is even.
+    """
     if a % 2 == 0:
         return True
     else:
@@ -50,6 +59,9 @@ l = int(input("What is the lenght of the rectangle: "))
 w = int(input("What is the width of the rectangle: ")) 
 # The lenght and width will be replaced by the value the user puts on their input
 def area(l,w):
+    """
+  This function gives us the area
+  """
 # will return the area by multiplying
     return l * w
 # will print the output
@@ -64,6 +76,9 @@ the equivalent temperature in Fahrenheit using the correct formula
 c = int(input("enter the teampuature in celcius: ")) 
 
 def teamputure(c): 
+    """ 
+    This function converts from celcius to degrees 
+    """
 # This is the equation to convert celcius to farenheit 
     return (c * 1.8) + 32
 # prints the out in farenheight 
@@ -79,6 +94,9 @@ and returns the average (mean) of those numbers
 import statistics
 
 def list_of_numbers(a, b, c, d):
+    """
+    This function finds the mean
+    """
 # Created the values as list so the mean function can work 
     return statistics.mean([a, b, c, d])  
 # Puts these values as the filler
@@ -94,6 +112,9 @@ Your function should also optionally accept a 3rd argument for discount, and ret
 """
 # this parameter set the discount at 0 
 def sell(price,quantity, discount =0): 
+    """ 
+    This function finds the total
+    """
 # to find the total
     total = price * quantity
 
